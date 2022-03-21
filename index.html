@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Cosmo Junkie</title>
+  </head>
+  <body class="body">
+    <header class="header">
+      <div class="header__wrapper container">
+        <p class="header__text">Cosmo Junkie</p>
+        <nav class="header__nav nav">
+          <ul class="list nav__list">
+            <li class="nav__item"><a href="#portfolio">Portfolio</a></li>
+            <li class="nav__item"><a href="#skills">Skills</a></li>
+            <li class="nav__item"><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="hero">
+        <div class="hero__wrapper container">
+          <div class="hero__box">
+            <h1 class="hero__title">
+              Space Enthuisiast <br />
+              & JavaScript Developer
+            </h1>
+            <p class="hero__text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Quibusdam, doloremque aliquid.
+            </p>
+            <button class="btn hero__btn" type="button">View my work</button>
+          </div>
+          <img
+            class="hero__img"
+            src="img/banner_image.png"
+            width="400"
+            height="400"
+            alt="planet"
+          />
+        </div>
+      </section>
+
+      <section class="portfolio" id="portfolio">
+        <div class="portfolio__wrapper container">
+          <h2 class="portfolio__title">
+            Some of my projects <br />
+            <span>They are out of this world...</span>
+          </h2>
+          <div class="portfolio__box">
+            <figure class="portfolio__item">
+              <img
+                src="img/project_1.png"
+                width="200"
+                height="200"
+                alt="project 1"
+              />
+              <figcaption>
+                <p class="portfolio__text">Space Race Game</p>
+              </figcaption>
+            </figure>
+
+            <figure class="portfolio__item">
+              <img
+                src="img/project_2.png"
+                width="200"
+                height="200"
+                alt="project 2"
+              />
+              <figcaption>
+                <p class="portfolio__text">Planet Boy API</p>
+              </figcaption>
+            </figure>
+
+            <figure class="portfolio__item">
+              <img
+                src="img/project_3.png"
+                width="200"
+                height="200"
+                alt="project 3"
+              />
+              <figcaption>
+                <p class="portfolio__text">Captain Cosmo Blog</p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills" id="skills">
+        <div class="skills__wrapper container">
+          <h2 class="skills__title">Things I Can Do</h2>
+          <div>
+            <ul class="list skills__list">
+              <li class="skills__item">
+                <img
+                  class="skills__img"
+                  src="img/comet_1.svg"
+                  width="150"
+                  height="150"
+                  alt="comet"
+                />
+                <p class="skills__text">JavaScript</p>
+              </li>
+              <li class="skills__item">
+                <img
+                  class="skills__img"
+                  src="img/comet_2.svg"
+                  width="150"
+                  height="150"
+                  alt="comet"
+                />
+                <p class="skills__text">React</p>
+              </li>
+              <li class="skills__item">
+                <img
+                  class="skills__img"
+                  src="img/comet_3.svg"
+                  width="150"
+                  height="150"
+                  alt="comet"
+                />
+                <p class="skills__text">Redux</p>
+              </li>
+              <li class="skills__item">
+                <img
+                  class="skills__img"
+                  src="img/comet_4.svg"
+                  width="150"
+                  height="150"
+                  alt="comet"
+                />
+                <p class="skills__text">Firebase</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="contact__wrapper container">
+          <h2 class="contact__title">Get in Touch</h2>
+          <form class="contact__form">
+            <input class="contact__form-text" type="text" placeholder="Name" />
+            <input
+              class="contact__form-email"
+              type="email"
+              placeholder="Email"
+            />
+            <textarea
+              class="contact__form-textarea"
+              placeholder="Your Message"
+              rows="10"
+            ></textarea>
+            <button class="btn contact__form-btn" type="button">
+              Send Flare
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__wrapper container">
+        <ul class="list footer__list">
+          <li class="footer__item">
+            <a href="#">
+              <img
+                class="footer__img"
+                src="img/icon_fb.svg"
+                width="30"
+                height="30"
+                alt="facebook"
+              />
+            </a>
+          </li>
+          <li class="footer__item">
+            <a href="#">
+              <img
+                class="footer__img"
+                src="img/icon_tw.svg"
+                width="30"
+                height="30"
+                alt="twitter"
+              />
+            </a>
+          </li>
+        </ul>
+        <p class="footer__text">Copyright 2022 Cosmo Junkie</p>
+      </div>
+    </footer>
+  </body>
+</html>

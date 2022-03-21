@@ -1,0 +1,28 @@
+.hero__wrapper {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 100px;
+}
+
+.hero__title {
+  margin: 0;
+  color: var(--primary);
+}
+
+.hero__text {
+  margin: 0;
+  color: var(--purple);
+}
+
+.hero__box {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  gap: 15px;
+}
+
+.hero__btn {
+  justify-self: start;
+}

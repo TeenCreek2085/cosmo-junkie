@@ -1,0 +1,16 @@
+.nav__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav__item > a {
+  color: var(--purple);
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.nav__item > a:hover {
+  color: var(--primary);
+}

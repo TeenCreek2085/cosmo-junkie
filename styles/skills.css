@@ -1,0 +1,33 @@
+.skills__wrapper {
+  margin-bottom: 100px;
+}
+
+.skills__title {
+  margin: 0;
+  margin-bottom: 40px;
+  color: var(--primary);
+  text-align: center;
+}
+
+.skills__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.skills__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 30px;
+}
+
+.skills__text {
+  margin: 0;
+  color: var(--purple);
+  font-size: 18px;
+  text-transform: uppercase;
+}
